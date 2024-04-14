@@ -1,0 +1,80 @@
+body{
+  margin: auto;
+  background-image: url(yellow_mountains.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  /* background-color: rgb(178, 195, 211, 0.8); */
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.left-title{
+  text-align: left;
+}
+
+#myimg {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+#right-view {
+  width: 500px;
+  border: solid white 4px;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#signal img{
+  width: 30px;
+}
+
+#stack {
+  /* background-color: rgb(178, 195, 211, 0.8); */
+  width: 70%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#stack article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shower {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#projects {
+/* background-color: rgb(178, 195, 211, 0.8); */
+width: 70%;
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+}
+
+.single {
+  border: solid aliceblue 5px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.single:hover {
+  background-color: azure;
+}
